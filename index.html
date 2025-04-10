@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="http://localhost/todo_app/style.css">
+</head>
+<body>
+    <div class="container" id="authContainer">
+        <h1>Welcome</h1>
+        <div id="registerForm">
+            <h2>Register</h2>
+            <input type="email" id="regEmail" placeholder="Email">
+            <input type="text" id="regUsername" placeholder="Username">
+            <input type="password" id="regPassword" placeholder="Password">
+            <button id="registerBtn">Register</button>
+            <p>Already registered? <a href="#" id="showLogin">Login instead</a></p>
+        </div>
+        <div id="loginForm" style="display: none;">
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button id="loginBtn">Login</button>
+            <p>Not registered? <a href="#" id="showRegister">Register instead</a></p>
+        </div>
+    </div>
+
+    <div class="container" id="todoContainer" style="display: none;">
+        <h1 id="todoTitle">To-Do List</h1>
+        <button id="logoutBtn">Logout</button>
+        <div id="userTodoSection">
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskBtn">Add Task</button>
+            <ul id="taskList"></ul>
+        </div>
+        <div id="adminSection" style="display: none;">
+            <h2>All Users</h2>
+            <ul id="userList"></ul>
+            <h2>Selected User Tasks</h2>
+            <table id="adminTaskTable">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Created At</th>
+                    </tr>
+                </thead>
+                <tbody id="adminTaskList"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

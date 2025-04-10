@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin: 20px 0 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 70%;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    display: block;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.delete {
+    background: red;
+}
+
+button.delete:hover {
+    background: darkred;
+}
+
+#logoutBtn {
+    background-color: #dc3545;
+    margin-bottom: 20px;
+}
+
+#logoutBtn:hover {
+    background-color: #c82333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+li span {
+    flex-grow: 1;
+    text-align: left;
+    margin-right: 10px;
+    min-width: 0;
+}
+
+li button {
+    margin-left: 5px;
+}
+
+.task-status {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    visibility: visible;
+    accent-color: #007BFF;
+    border: 1px solid #000;
+}
+
+li.completed span {
+    text-decoration: line-through;
+    color: #888;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Admin Section Styles */
+#adminSection {
+    margin-top: 20px;
+}
+
+#userList li {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+#userList li:hover {
+    background-color: #dee2e6;
+}
+
+#adminTaskTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#adminTaskTable th, #adminTaskTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+#adminTaskTable th {
+    background-color: #007BFF;
+    color: white;
+}
+
+#adminTaskTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#adminTaskTable tr:hover {
+    background-color: #f1f1f1;
+}

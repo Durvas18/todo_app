@@ -1,0 +1,90 @@
+[25-Mar-2025 15:15:15 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:60
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(60): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 60
+[25-Mar-2025 15:15:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:60
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(60): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 60
+[25-Mar-2025 15:15:37 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in D:\xampp\htdocs\todo_app\server.php:31
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(31): mysqli->prepare('INSERT INTO tas...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 31
+[25-Mar-2025 15:19:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:19:20 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:19:25 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in D:\xampp\htdocs\todo_app\server.php:31
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(31): mysqli->prepare('INSERT INTO tas...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 31
+[25-Mar-2025 15:25:54 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:26:28 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:26:45 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in D:\xampp\htdocs\todo_app\server.php:31
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(31): mysqli->prepare('INSERT INTO tas...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 31
+[25-Mar-2025 15:26:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'field list' in D:\xampp\htdocs\todo_app\server.php:31
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(31): mysqli->prepare('INSERT INTO tas...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 31
+[25-Mar-2025 15:38:04 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:38:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:44:56 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 15:45:36 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[25-Mar-2025 16:38:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\xampp\htdocs\todo_app\server.php:88
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\server.php(88): mysqli->prepare('SELECT * FROM t...')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\server.php on line 88
+[01-Apr-2025 17:57:13 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\todo_app\login.php:30
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\login.php(30): mysqli_stmt->bind_param('/nodejss', 'admin')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\login.php on line 30
+[01-Apr-2025 17:57:15 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\todo_app\login.php:30
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\login.php(30): mysqli_stmt->bind_param('/nodejss', 'admin')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\login.php on line 30
+[01-Apr-2025 17:57:51 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in D:\xampp\htdocs\todo_app\login.php:30
+Stack trace:
+#0 D:\xampp\htdocs\todo_app\login.php(30): mysqli_stmt->bind_param('/nodejss', 'om123')
+#1 {main}
+  thrown in D:\xampp\htdocs\todo_app\login.php on line 30
